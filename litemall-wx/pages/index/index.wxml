@@ -1,0 +1,9 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="scancode" bindtap="scancode">
+    <image src='../../static/images/scancode.png'></image>
+  </view>
+  <view class="scantips">
+    扫描盒子上的二维码获取商品
+  </view>
+</view>

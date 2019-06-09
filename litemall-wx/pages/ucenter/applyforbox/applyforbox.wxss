@@ -1,0 +1,107 @@
+page {
+  height: 100%;
+  width: 100%;
+  background: #f4f4f4;
+}
+
+.container {
+  background: #fff;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.container .top-image{
+  width: 100%;
+  height: 340rpx;
+}
+.container .top-image image{
+  width: 100%;
+  height: 100%;
+}
+
+.applyforbox .description{
+   padding: 20rpx 30rpx 10rpx 30rpx;
+}
+
+.applyforbox .form-item {
+  height: 116rpx;
+  padding-left: 31.25rpx;
+  border-bottom: 1px solid #d9d9d9;
+  display: flex;
+  align-items: center;
+  padding-right: 31.25rpx;
+}
+
+.applyforbox .input {
+  flex: 1;
+  height: 44rpx;
+  line-height: 44rpx;
+  overflow: hidden;
+}
+
+.applyforbox .form-default {
+  border-bottom: 1px solid #d9d9d9;
+  height: 96rpx;
+  background: #fafafa;
+  padding-top: 28rpx;
+  font-size: 28rpx;
+}
+
+.default-input {
+  margin: 0 auto;
+  display: block;
+  width: 240rpx;
+  height: 40rpx;
+  padding-left: 50rpx;
+  line-height: 40rpx;
+  background: url(http://yanxuan.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/sprites/checkbox-sed825af9d3-a6b8540d42.png) 1rpx -448rpx no-repeat;
+  background-size: 38rpx 486rpx;
+  font-size: 28rpx;
+}
+
+.default-input.selected {
+  background: url(http://yanxuan.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/sprites/checkbox-sed825af9d3-a6b8540d42.png) 0 -192rpx no-repeat;
+  background-size: 38rpx 486rpx;
+}
+/* .sendsms{
+  font-size: 24rpx;
+} */
+
+.section{
+  width: 100%;
+}
+.section_item{
+  color: #666;
+}
+
+.applyforbox .btn-area{
+  margin-top: 40rpx;
+}
+.applyforbox .btn-area .submit-btn{
+  margin: 30rpx;
+}
+
+/* 获取短信验证码按钮样式 */
+.vertificate {
+  width: 326rpx;
+  height: 121rpx;
+  margin-left: 140rpx;
+  font-family: PingFangSC-Regular;
+  font-size: 32rpx;
+  letter-spacing: 0;
+  line-height: 121rpx;
+  text-align: center;
+  color: #34c9c3;
+}
+
+.vertificate text {
+  color: #666;
+}
+
+/* .placeholder_style {
+  font-family: PingFangSC-Regular;
+  font-size: 32rpx;
+  color: #dbdbdb;
+  letter-spacing: 0;
+} */

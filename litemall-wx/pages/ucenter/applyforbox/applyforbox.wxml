@@ -1,0 +1,47 @@
+<view class="container">
+<view class="top-image">
+  <image src="../../../static/images/applyforbox.png"></image>
+</view>
+  <form bindsubmit="formSubmit" class="applyforbox">
+    <view class="description">
+      <view>零食盒子，住在你宿舍的无人售卖机</view>
+      <view>大学生免押金，免费送货上门，从此足不出户享受各种零食，晚上熬夜不在挨饿，学习太忙，扫码即吃</view>
+    </view>
+
+    <view class="form-item">
+      <input class="input" bindinput="bindInput" data-name="name" placeholder="请输入真实姓名" auto-focus/>
+    </view>
+
+    <view class="form-item">
+      <input type="number" class="input" maxlength="11" bindinput="bindInput" data-name="phone" placeholder="请输入手机号码" />
+    </view>
+    <view class="form-item">
+      <input type="text" class="sendmsg_input" placeholder="短信验证码" data-name="data_code" value="{{data_code}}" placeholder-class="placeholder_style" bindinput='getInputKey' />
+      <view class='vertificate' bindtap="getVerificationCode">{{time}}
+        <text>{{suffix}}</text>
+      </view>
+    </view>
+<!-- 
+    <view class="form-item">
+      <input type="number" class="input" maxlength="11" bindinput="bindInput" data-name="phone" placeholder="手机验证码" />
+    </view> -->
+
+    <view class="form-item">
+      <view class="section">
+        <!-- <view class="section_title">选择学校</view> -->
+        <picker bindchange="bindPickerChange" value="{{index}}" range="{{schoolList}}">
+          <view class="section_item">{{applyFormObject.school}}</view>
+        </picker>
+      </view>
+    </view>
+
+    <view class="form-item">
+      <!-- <view>地址</view> -->
+      <input type="text" class="input" placeholder="请输入地址具体到宿舍号方便送货上门" bindinput="bindInput" data-name="address" />
+    </view>
+
+    <view class="btn-area">
+      <button form-type="submit" type="primary" size="default" class="submit-btn">申请零食盒子</button>
+    </view>
+  </form>
+</view>
