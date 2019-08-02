@@ -12,7 +12,7 @@ litemall = Spring Boot后端 + Vue管理员前端 + 微信小程序用户前端
 2. 管理员用户名`admin123`，管理员密码`admin123`
 
 ## 项目代码
-* [GitHub](https://github.com/guqing/litemal)
+* [GitHub](https://github.com/guqing/litemall)
 
 ## 项目架构
 ![](./doc/pic/1.png)    
