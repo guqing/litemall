@@ -11,7 +11,18 @@ litemall = Spring Boot后端 + Vue管理员前端 + 微信小程序用户前端
 1. 浏览器打开，输入以下网址: [http://118.24.0.153:8080/#/login](http://118.24.0.153:8080/#/login)
 2. 管理员用户名`admin123`，管理员密码`admin123`
 
+### 小程序实例
+
+![](./doc/pic3/index.png)
+
+![](./doc/pic3/cart.png)
+
+![](./doc/pic3/me.png)
+
+使用微信开发者工具导入`litemall-wx`即可预览
+
 ## 项目代码
+
 * [GitHub](https://github.com/guqing/litemall)
 
 ## 项目架构
@@ -90,10 +101,11 @@ litemall = Spring Boot后端 + Vue管理员前端 + 微信小程序用户前端
    3. 点击“编译”，即可在微信开发工具预览效果；
    4. 也可以点击“预览”，然后手机扫描登录（但是手机需开启调试功能）。
       
+   
    注意：
    > 这里只是最简启动方式，而小商场的微信登录、微信支付等功能需开发者设置才能运行，
-   > 更详细方案请参考[文档](https://linlinjava.gitbook.io/litemall/project)。
-
+> 更详细方案请参考[文档](https://linlinjava.gitbook.io/litemall/project)。
+   
 6. 启动轻商城前端
 
     打开命令行，输入以下命令
@@ -106,6 +118,7 @@ litemall = Spring Boot后端 + Vue管理员前端 + 微信小程序用户前端
     此时，浏览器（建议采用chrome 手机模式）打开，输入网址`http://localhost:6255`, 此时进入轻商场。
 
     注意：
+    
     > 现在功能很不稳定，处在开发阶段。
 
 ## 致谢
