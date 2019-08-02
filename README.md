@@ -1,41 +1,8 @@
 # litemall
 
-又一个小商场系统。
+一个零食盒子系统。
 
-litemall = Spring Boot后端 + Vue管理员前端 + 微信小程序用户前端 + Vue用户移动端
-
-* [文档](https://linlinjava.gitbook.io/litemall)
-* [贡献](https://linlinjava.gitbook.io/litemall/contribute)
-* [FAQ](https://linlinjava.gitbook.io/litemall/faq)
-* [API](https://linlinjava.gitbook.io/litemall/api)
-
-## 项目实例
-
-### 小商场实例
-
-* renard-wx模块实例
-
-![](./doc/pic/renard_wx_demo.png)    
-
-> 注意：此实例是真实小商场，开发者可以购买商品和付款，但请不要尝试退款操作。
-
-* litemall-wx模块实例
-
-![](./doc/pic/litemall_wx_demo.png)    
-
-> 注意：此实例是测试小商场，开发者请不要尝试购买商品、付款、退款操作。
-
-### 轻商场实例
-
-请手机扫描以下二维码访问:
-
-![](./doc/pic/mobmall.png)    
-
-或者浏览器采用手机模式访问以下网址: [http://118.24.0.153:8080/vue/index.html#/](http://118.24.0.153:8080/vue/index.html#/)
-
-注意：
-> 1. 由于第一次加载数据量较大，建议wifi网络访问，且耐心等待数秒。
-> 2. 此实例是测试轻商场，不支持支付，而且处于开发中还不完善。
+litemall = Spring Boot后端 + Vue管理员前端 + 微信小程序用户前端
 
 ### 管理后台实例
 
@@ -43,12 +10,9 @@ litemall = Spring Boot后端 + Vue管理员前端 + 微信小程序用户前端 
 
 1. 浏览器打开，输入以下网址: [http://118.24.0.153:8080/#/login](http://118.24.0.153:8080/#/login)
 2. 管理员用户名`admin123`，管理员密码`admin123`
-> 注意：此实例只是测试管理后台，不是前两个小商城的管理后台。
 
 ## 项目代码
-
-* [码云](https://gitee.com/linlinjava/litemall)
-* [GitHub](https://github.com/linlinjava/litemall)
+* [GitHub](https://github.com/guqing/litemal)
 
 ## 项目架构
 ![](./doc/pic/1.png)    
@@ -80,15 +44,6 @@ litemall = Spring Boot后端 + Vue管理员前端 + 微信小程序用户前端 
 * 地址、收藏、足迹、意见反馈
 * 客服
 
-### 管理平台功能
-
-* 会员管理
-* 商城管理
-* 商品管理
-* 推广管理
-* 系统管理
-* 配置管理
-* 统计报表
 
 ## 快速启动
 
@@ -152,37 +107,6 @@ litemall = Spring Boot后端 + Vue管理员前端 + 微信小程序用户前端 
 
     注意：
     > 现在功能很不稳定，处在开发阶段。
-        
-## 开发计划
-
-当前版本[v1.4.0](https://linlinjava.gitbook.io/litemall/changelog)
-
-目前项目开发中，存在诸多不足，以下是目前规划的开发计划。
-
-V 1.0.0 完成以下目标：
-
-1. 除了部分功能（如优惠券等），小商城的优化和改进基本结束；
-2. 管理后台基本实现所有表的CRUD操作；
-3. 后端服务能够对参数进行检验。
-
-V 2.0.0 完成以下目标：
-
-1. 小商城和管理后台完成所有基本业务；
-2. 管理后台实现统计功能、日志功能、权限功能；
-3. 业务代码和细节代码进行调整优化；
-4. 轻商城的开发；
-
-V 3.0.0 完成以下目标：
-
-1. 管理后台一些辅助功能
-2. 后端服务加强安全功能、配置功能
-3. 缓存功能以及优化一些性能
-
-## 警告
-
-> 1. 本项目仅用于学习练习
-> 2. 本项目还不完善，仍处在开发中，不承担任何使用后果
-> 3. 本项目代码开源[MIT](./LICENSE)，项目文档采用 [署名-禁止演绎 4.0 国际协议许可](https://creativecommons.org/licenses/by-nd/4.0/deed.zh)
 
 ## 致谢
 
@@ -221,20 +145,3 @@ V 3.0.0 完成以下目标：
 
    项目参考：litemall项目的litemall-vue模块基于vant--mobile-mall项目开发。
    
-## 问题
-
-![](doc/pic/qq2.png)
-
- * 开发者有问题或者好的建议可以用Issues反馈交流，请给出详细信息
- * 在开发交流群中应讨论开发、业务和合作问题
- * 如果真的需要QQ群里提问，请在提问前先完成以下过程：
-    * 请仔细阅读本项目文档，特别是是[**FAQ**](https://linlinjava.gitbook.io/litemall/faq)，查看能否解决；
-    * 请阅读[提问的智慧](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md)；
-    * 请百度或谷歌相关技术；
-    * 请查看相关技术的官方文档，例如微信小程序的官方文档；
-    * 请提问前尽可能做一些DEBUG或者思考分析，然后提问时给出详细的错误相关信息以及个人对问题的理解。
-
-## License
-
-[MIT](https://github.com/linlinjava/litemall/blob/master/LICENSE)
-Copyright (c) 2018-present linlinjava
